@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #e7e7e7 url("img/bg.jpg") repeat;
+	font-family: Arial;
+	font-size: 13px;
+	color: black;
+	line-height: 20px;
+}
+
+h1, h2 {
+	letter-spacing: -0.1em;	
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: black;
+	color: white;
+}
+
+form {
+	float: right;
+	background-color: black;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+
+form .field {
+	width: 252px;
+	text-align: center;
+	height: 27px;
+	background-color: black;
+	color: gray;
+}
+
+
+.logo {
+	background-color: black;
+} 
+
+.slider {
+	height: 329px;
+	background-color: black;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 174px;
+}
+
+.text {
+	position: absolute;
+	text-align: left;
+	margin: -47px -28px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 4px 13px;
+}
+
+.forma {
+	margin-left: 25px;
+}
+
+button, .btn {
+	padding: 0px 20px !important;	
+	background-color: black;
+	color: white;
+	border: 2px double gray !important;
+}
+
+
+.place, select, textarea {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	border: 2px double black;
+}
+
+.txt p {
+	float: right;
+}
+
+.stat img {
+	left: 6px;
+}
+
+table {
+	margin: 20px 15px;
+}
+
+.btn:hover {
+    color: #fff !important;
+}
+
+.btn {
+	margin-top: -4px !important;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
